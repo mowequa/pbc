@@ -5,7 +5,7 @@ IMRChart<-function(x,xname,xLab=NULL,xLabName,bMed,bSD,bT1,bT2,bT3,bT4,bT5,bT6,b
     names(sframe)<-c(xname)
 	bTests<-c(bT1,bT2,bT3,bT4,bT5,bT6,bT7,bT8)
 	
-	# TEST VALUES
+	# TEST VALUES 
 	if(length(pTs)==0)
 	{
 		t2s<-2
@@ -33,7 +33,6 @@ IMRChart<-function(x,xname,xLab=NULL,xLabName,bMed,bSD,bT1,bT2,bT3,bT4,bT5,bT6,b
     #X DATA
      x.ave <- ave(x)
      sframe$xave<-x.ave
-
     
     #MOVING RANGE    
      x.mr<-vector()
